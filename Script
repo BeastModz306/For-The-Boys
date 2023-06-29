@@ -82,7 +82,7 @@ OthersTab:AddButton({
 OthersTab:AddButton({
 	Name = "Frakture",
 	Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/L1ghtingBolt/FraktureSS/master/unobfuscated.lua"))()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/Its-LALOL/LALOL-Hub/main/Backdoor-Scanner/script'))()
   	end    
 })
 
