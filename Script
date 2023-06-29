@@ -80,7 +80,7 @@ OthersTab:AddButton({
 
 
 OthersTab:AddButton({
-	Name = "Frakture",
+	Name = "BackDoors Script",
 	Callback = function()
         loadstring(game:HttpGet('https://raw.githubusercontent.com/Its-LALOL/LALOL-Hub/main/Backdoor-Scanner/script'))()
   	end    
