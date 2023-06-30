@@ -26,6 +26,14 @@ MainTab:AddButton({
 
 
 MainTab:AddButton({
+	Name = "noclip off",
+	Callback = function()
+        loadstring(game:HttpGet('https://pastebin.com/aC3Djruv'))()
+  	end    
+})
+
+
+MainTab:AddButton({
 	Name = "Super-Human",
 	Callback = function()
         game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 120
