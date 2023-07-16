@@ -119,14 +119,14 @@ OthersTab:AddButton({
 })
 
 
-local GamesTab = Window:MakeTab({
-	Name = "Games",
+local Games1Tab = Window:MakeTab({
+	Name = "Games1",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
 
 
-GamesTab:AddButton({
+Games1Tab:AddButton({
 	Name = "Prison Life",
 	Callback = function()
         loadstring(game:HttpGet('https://pastebin.com/raw/VnijhyG4'))()
@@ -134,7 +134,7 @@ GamesTab:AddButton({
 })
 
 
-GamesTab:AddButton({
+Games1Tab:AddButton({
 	Name = "Bloxburg",
 	Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/PainfulDestroyer/Roblox/main/Scar%20Hub"))()
@@ -142,7 +142,7 @@ GamesTab:AddButton({
 })
 
 
-GamesTab:AddButton({
+Games1Tab:AddButton({
 	Name = "Seal Build Build a Boat",
 	Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/max2007killer/auto-build-not-limit/main/autobuild.txt"))()
@@ -150,7 +150,7 @@ GamesTab:AddButton({
 })
 
 
-GamesTab:AddButton({
+Games1Tab:AddButton({
 	Name = "Build a Boat",
 	Callback = function()
         loadstring(game:HttpGet('https://raw.githubusercontent.com/XRoLLu/UWU/main/BUILD%20A%20BOAT%20FOR%20TREASURE.lua'))()
@@ -158,7 +158,7 @@ GamesTab:AddButton({
 })
 
 
-GamesTab:AddButton({
+Games1Tab:AddButton({
 	Name = "Pet Simulator X",
 	Callback = function()
         loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/a82cd5447cbbc4c7be0e8db405555787.lua"))()
@@ -166,7 +166,7 @@ GamesTab:AddButton({
 })
 
 
-GamesTab:AddButton({
+Games1Tab:AddButton({
 	Name = "Prison Life Admin",
 	Callback = function()
         loadstring(game:HttpGet('https://raw.githubusercontent.com/H17S32/Tiger_Admin/main/Script'))() 
@@ -174,3 +174,28 @@ GamesTab:AddButton({
 })
 
 
+local OtherGamesTab = Window:MakeTab({
+	Name = "OtherGames",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+
+
+    OtherGamesTab:AddButton({
+        Name = "Arm Wrestle Simulator",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/limaspeedy/limaspeedy/main/HubLDS"))()
+        end
+    })
+
+
+    OtherGamesTab:AddButton({
+        Name = "Arm Wrestle Simulator train faster",
+        Callback = function()
+            loadstring(game:HttpGet("https://pastebin.com/raw/wR3vDFTq"))()
+        end
+    })
+
+
+    
