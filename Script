@@ -196,5 +196,20 @@ local OtherGamesTab = Window:MakeTab({
         end
     })
 
-
     
+    OtherGamesTab:AddButton({
+        Name = "Get Cancelled Tycoon",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraIsMe/ToraIsMe/main/0cancelled"))()
+        end
+    })
+
+
+    OtherGamesTab:AddButton({
+        Name = "BedWars",
+        Callback = function()
+            loadstring(game:HttpGet(('https://github.com/Baconontop/bedwarsV2/raw/main/IcecatBedwars'),true))()
+        end
+    })
+
+
