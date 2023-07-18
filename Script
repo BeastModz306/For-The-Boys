@@ -20,7 +20,7 @@ MainTab:AddButton({
 MainTab:AddButton({
 	Name = "noclip",
 	Callback = function()
-        loadstring(game:HttpGet('https://pastebin.com/raw/NGTk7zr6'))()
+        loadstring(game:HttpGet('https://pastebin.com/aC3Djruv'))()
   	end    
 })
 
